@@ -3,7 +3,7 @@ name: Auto Deploy to AWS EC2 (HTML/CSS/JS)
 on:
   push:
     branches:
-      - main  # runs whenever you push to main branch
+      - master # runs whenever you push to main branch
 
 jobs:
   deploy:
